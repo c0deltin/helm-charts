@@ -23,7 +23,7 @@ jobs:
 
       - name: Index Helm repository
         run: |
-          helm repo index charts/ 
+          helm repo index charts/ --url charts
           mv charts/index.yaml index.yaml
           git add .
           git commit -m "feat: updated Helm repo index"
