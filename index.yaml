@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  replik8or:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-02-04T21:24:55.470027222Z"
+    description: A Kubernetes operator that replicates Secrets and ConfigMaps into
+      namespaces.
+    digest: b28288ab70f5d5550192392acfd7d42e2a4df1a63ae86cff400acd458770f364
+    maintainers:
+    - name: c0deltin
+    name: replik8or
+    sources:
+    - https://github.com/c0deltin/replik8or
+    type: application
+    urls:
+    - https://github.com/c0deltin/helm-charts/releases/download/replik8or-0.1.0/replik8or-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-02-04T21:24:55.470033052Z"
